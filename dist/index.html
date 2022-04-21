@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" 
+    type="image/ico" 
+    href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&family=Lato&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+      }
+
+    .font-exo-2 {
+      font-family: 'Exo 2', sans-serif;
+    }
+    .font-lato {
+      font-family: 'Lato', sans-serif;
+    }
+    .footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(12, 36, 99);
+   color: white;
+   text-align: center;}
+</style>
+
+  </head>
+  <body>
+    <div class="flex h-screen bg-black">
+      <div class="w-1/2 flex flex-col justify-center px-8">
+        <div style="max-width:500px;" class="mx-auto">
+         <h1 class="text-white text-4xl mb-20 font-exo-2 ">GLOBAL CLIMATE CHANGE
+         </h1>
+         <p class="text-gray-400 mb-18 font-lato"> Is global climate change really affecting the world?<br> Why is it so important to talk about it?<br> What is the impact of the climate change on the world?<br> Well in this presentation you will see why this is getting to a point where we people need to do something. </p>
+      
+     
+        <div class="inline-flex shadow-md hover:shadow-lg focus:shadow-lg mb-7" role="group">
+         <a href="./presentation/home.html"><button type="button" class="rounded-l inline-block px-6 py-2.5 bg-green-500 text-white font-medium text-xs leading-tight uppercase hover:bg-green-600 focus:bg-green-600 focus:outline-none focus:ring-0 active:bg-green-700 transition duration-150 ease-in-out font-lato">Presentation
+         </button>
+          </a>
+          <button type="button" class="inline-block px-6 py-2.5 bg-green-500 text-white font-medium text-xs leading-tight uppercase hover:bg-green-600 focus:bg-green-600 focus:outline-none focus:ring-0 active:bg-green-700 transition duration-150 ease-in-out font-lato"><a href="./presentation/home.html">Quiz</a>
+  
+          </button>
+          <button type="button" class="rounded-r inline-block px-6 py-2.5 bg-green-500 text-white font-medium text-xs leading-tight uppercase hover:bg-green-600 focus:bg-green-600 focus:outline-none focus:ring-0 active:bg-green-700 transition duration-150 ease-in-out font-lato"><a href="./presentation/home.html">Game</a>
+
+          </button>
+       </div>
+     
+  
+         <div class="footer">
+            
+          <p class="text-white">© 2022 - Global Climate Change / Coded by Francisco :3</p>
+         </div>
+        </div>
+      </div>
+      <div class="w-1/2" id="canvascontainer">
+        <canvas></canvas>
+      
+      </div>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
